@@ -1,0 +1,40 @@
+baseurl: "https://cytsai1008.github.io/"
+languageCode: en-us
+paginate: 5
+title: CYTsai Personal Site
+DefaultContentLanguage: en
+hasCJKLanguage: true
+disqusShortname: hugo-theme-stack
+theme: hugo-theme-stack
+
+params:
+  comments:
+    enabled: false
+  article:
+    readingTime: false
+    license:
+      enabled: true
+      default: "Licensed under CC BY-NC-SA 4.0"
+  footer:
+    since: 2022
+  widgets:
+    homepage:
+      - type: search
+      - type: archives
+        params:
+          limit: 5
+      - type: categories
+        params:
+          limit: 10
+      - type: tag-cloud
+        params:
+          limit: 10
+    page:
+      - type: toc
+  sidebar:
+    emoji: "🐛"
+    subtitle: 'Just a normal student who praying for no bugs all day'
+    avatar:
+      enabled: true
+      local: true
+      src: "img/share/avatar.jpg"
